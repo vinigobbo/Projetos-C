@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-int main () {
-
 struct Usuario {
     int id;
     char nome; 
