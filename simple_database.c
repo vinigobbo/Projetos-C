@@ -93,11 +93,11 @@ int main() {
             if (encontrado == -1) {
                 printf ("Usuario não encontrado!\n");           
             } else {
-                printf ("Insira o Novo nome: ");
+                printf ("Insira o Novo nome: \n");
                 scanf ("%s", usuarios[encontrado].nome);
 
-                printf ("Insira a Nova idade: ");
-                scanf ("%d", usuarios[encontrado].idade);
+                printf ("Insira a Nova idade: \n");
+                scanf ("%d", &usuarios[encontrado].idade);
 
                 printf ("Usuario atualizado com sucesso!\n");
             }
